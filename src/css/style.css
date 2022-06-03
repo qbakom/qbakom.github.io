@@ -174,4 +174,5 @@ img {
 .footer .social {
     justify-content: center;
     align-items: center;
+    word-spacing: 0.5cm;
 }
