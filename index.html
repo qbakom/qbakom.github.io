@@ -1,7 +1,83 @@
-<html>
-  <head></head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Jakub Komosa</title>
+  </head>
   <body>
-    <h1>Hello World!</h1>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Jakub Komosa</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="test.html">test_web</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Showcase -->
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h3>Welcome to my website</h3>
+          <p>I don't actually know what I'm gonna do here.</p>
+          <a href="test.html" class="btn btn-outline">Read More</a>
+        </div>
+        <div class="showcase-form card">
+          <h3>Contact me</h3>
+          <form>
+            <div class="form-control">
+              <input type="text" name="name" placeholder="Name" />
+            </div>
+            <div class="form-control">
+              <input type="text" name="email" placeholder="Email" />
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <p>I'm hosted with GitHub Pages.</p>
+    <!-- currently hidden by "showcase after" -->
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>Jakub Komosa</h1>
+          <p>Copyright &copy; 2022</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="test.html">test_web</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="https://github.com/qbakom"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+          <a href="https://www.facebook.com/qba.kom/"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="https://twitter.com/qba_kom"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
-  <footer></footer>
 </html>
