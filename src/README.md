@@ -1,2 +1,0 @@
-# qbakom.github.io
- 
